@@ -1,7 +1,4 @@
-package com.company;
-
-import java.util.*;
-import java.util.regex.Pattern;
+ java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 public class mulPowExpressions<F,K,P> {
