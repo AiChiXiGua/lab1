@@ -16,8 +16,4 @@ public class dicSet {
         this.power = power;
     }
 
-    public void setAll(String charactor, Integer power) {
-        this.charactor = charactor;
-        this.power = power;
-    }
 }

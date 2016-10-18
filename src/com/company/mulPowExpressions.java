@@ -208,7 +208,5 @@ public class mulPowExpressions<F,K,P> {
         while(elements.hasMoreElements()){
             System.out.print(elements.nextElement() + " ");
         }
-        System.out.println();
-        System.out.println(exp.getValue("y"));*/
-    }
+
 }
