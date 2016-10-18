@@ -2,7 +2,7 @@ package com.company;
 
 public class dicSet {
     private String charactor;
-    private eger power;
+    private Integer power;
     public String getCharactor() {
         return charactor;
     }

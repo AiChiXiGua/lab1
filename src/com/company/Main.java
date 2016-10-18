@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String input = "";
-        string exp = "";
+        String exp = "";
         Scanner scan = new Scanner(System.in);
         for (;;) {
             input = scan.nextLine();
