@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.¶­ºÆÑó£»
+import java.util.Vector;
 
 public class plusMinusExpressions<S,F,K,P> {
     private Vector<S> connector;
@@ -132,6 +132,7 @@ public class plusMinusExpressions<S,F,K,P> {
         return str;
     }
 
+<<<<<<< HEAD
     public static void main(String[] args) {
         String s = "3*x-4*y^2";
         plusMinusExpressions<String,Integer,String,Integer> pme = new plusMinusExpressions<>();
@@ -176,4 +177,6 @@ public class plusMinusExpressions<S,F,K,P> {
         String ress = pme.derivative("y");
         System.out.println(dealString(ress));
     }
+=======
+>>>>>>> origin/11403106260626
 }

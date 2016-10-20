@@ -1,6 +1,7 @@
 package com.company;
 
-import java.util.Dictionary;¹ùöÎ
+
+import java.util.Dictionary;
 import java.util.Enumeration;
 import java.util.Vector;
 
@@ -84,7 +85,8 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         dic.put("y", 2);
         dic.put("z", 3);
         dic.put("w", 4);
-        dic.putout("x", -8);
+
+        dic.put("x", -8);
         System.out.println(dic.get("x") + dic.get("w"));
         System.out.println(dic.isExist("x"));
         Enumeration<String> keys = dic.keys();
@@ -98,4 +100,9 @@ public class MyDictionary<K,V> extends Dictionary<K,V> {
         }
         System.out.println();
     }
+
+    //In action how like an angel.
 }
+
+//In action how like an angel.
+
