@@ -21,3 +21,6 @@ public class dicSet {
         this.power = power;
     }
 }
+
+
+//
