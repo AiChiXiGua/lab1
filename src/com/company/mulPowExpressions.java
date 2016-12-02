@@ -195,7 +195,7 @@ public class mulPowExpressions<F,K,P> {
     public static void main(String[] args) {
         mulPowExpressions<Integer,String,Integer> exp = new mulPowExpressions<>();
         exp.init("z*y^2^2*a^2*xyz^2^2");
-        /*for (int i = 0; i < exp.factor.size(); i++) {
+        for (int i = 0; i < exp.factor.size(); i++) {
             System.out.println(exp.factor.get(i));
         }
         System.out.println();
@@ -209,6 +209,6 @@ public class mulPowExpressions<F,K,P> {
             System.out.print(elements.nextElement() + " ");
         }
         System.out.println();
-        System.out.println(exp.getValue("y"));*/
+        System.out.println(exp.getValue("y"));
     }
 }
